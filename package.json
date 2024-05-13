@@ -1,0 +1,40 @@
+{
+  "name": "@kenbekov/mui-sidebar",
+  "version": "1.0.2",
+  "description": "The Sidebar component for React MUI 4.0",
+  "main": "./src/index.ts",
+  "type": "module",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://www.mit.edu/~amini/LICENSE.md"
+    }
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "sidebar",
+    "react",
+    "mui"
+  ],
+  "author": "Ken Bekov",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "^4.0.0",
+    "clsx": "^2.1.0",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/react": "^16.8.0",
+    "@types/react-dom": "^16.8.0",
+    "rollup": "^3.29.4",
+    "tslib": "^2.6.2"
+  }
+}
